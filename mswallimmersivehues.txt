@@ -1,0 +1,19 @@
+[Section]
+Name = Immersive Hues 4K Wallpapers
+Version = 1
+Description = Abstract wallpapers showcases wavy, flowing shapes in blue, purple, and white, resembling gentle waves or ribbons.
+Category = 16
+Publisher = Microsoft
+URLSite = https://microsoft.design/wallpapers/
+URLDownload = https://microsoft.design/wp-content/uploads/2025/02/Wallpapers-Pack-3.zip
+SizeBytes = 67735146
+SHA1 = 8dc134727d647d8e95ecbd3f9c48d68d31df876c
+Screenshot1 = https://web.archive.org/web/2024im_/https://microsoft.design/wp-content/uploads/2025/02/Waves-2-375x220.png
+Icon = wallpaper.ico
+Installer = Generate
+
+[Generate]
+Dir = %SystemRoot%\Web\Wallpaper
+Icon = ..\..\system32\desk.cpl
+Files = *
+Lnk = !
